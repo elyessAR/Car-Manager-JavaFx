@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.MotionBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="592.0" prefWidth="1057.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication2.ViewVoitures">
+   <children>
+      <ImageView fitHeight="636.0" fitWidth="958.0" layoutX="-6.0" layoutY="-11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@12940_sports-cars-hd-wallpapers_1920x1200_h.jpg" />
+         </image>
+         <effect>
+            <MotionBlur radius="13.0" />
+         </effect>
+      </ImageView>
+      <TableView fx:id="table" layoutX="11.0" layoutY="40.0" opacity="0.89" prefHeight="413.0" prefWidth="898.0">
+        <columns>
+          <TableColumn fx:id="Matricule" prefWidth="211.99999713897705" text="Matricule" />
+          <TableColumn fx:id="Modele" minWidth="3.199981689453125" prefWidth="104.80006408691406" text="Modele" />
+            <TableColumn fx:id="Marque" prefWidth="136.79998779296875" text="Marque" />
+            <TableColumn fx:id="Kilometrage" prefWidth="172.0" text="Kilometrage" />
+            <TableColumn fx:id="Couleur" minWidth="0.0" prefWidth="271.199951171875" text="Couleur" />
+        </columns>
+         <columnResizePolicy>
+           
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</Pane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.MotionBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="928.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication2.FXMLDocument2Controller">
+   <children>
+      <ImageView accessibleRole="HYPERLINK" fitHeight="657.0" fitWidth="1038.0" layoutX="-55.0" layoutY="-7.0" opacity="0.66" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MBP7tTz.jpg" />
+         </image>
+         <effect>
+            <MotionBlur angle="72.0" radius="7.0" />
+         </effect>
+      </ImageView>
+      <Button layoutX="322.0" layoutY="135.0" mnemonicParsing="false" onAction="#ViewVoitures" prefHeight="57.0" prefWidth="283.0" text="Voitures">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button layoutX="322.0" layoutY="215.0" mnemonicParsing="false" onAction="#InsertVoitures" prefHeight="57.0" prefWidth="283.0" text="Insertion">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Button layoutX="322.0" layoutY="298.0" mnemonicParsing="false" onAction="#UpdatVoiutre" prefHeight="57.0" prefWidth="283.0" text="Mise a jour">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="304.0" layoutY="32.0" prefHeight="57.0" prefWidth="320.0" text="Panneau du control" textFill="WHITE">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Button layoutX="322.0" layoutY="387.0" mnemonicParsing="false" onAction="#DeleteVoiutre" prefHeight="57.0" prefWidth="283.0" text="Suppression">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
